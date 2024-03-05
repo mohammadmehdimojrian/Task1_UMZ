@@ -8,11 +8,11 @@ while(True):
     elif ch=='B':
         b=int(input("please enter your money for bardasht: "))
         if b>num:
-            print("mujudit kameh baraye bardasht!!!")
+            print("mujudit kameh baraye bardasht!!!\n")
         else:
             num-=b
     elif ch=='C':
-        print("mujudi is %i"%num)
+        print("mujudi is %i\n"%num)
     elif(ch=='D'):
         break
 
